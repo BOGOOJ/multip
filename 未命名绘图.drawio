@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T08:45:05.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZLi0gCOQbc5g2yiNy5V2" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T13:42:59.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1c85iCh2BX2INBJUnTw0" version="20.7.4" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="962" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,19 +13,19 @@
         <mxCell id="CUs4rStnzdPTpRsURDmQ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-58" target="CUs4rStnzdPTpRsURDmQ-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-58" value="双向初始化麻雀种群X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-58" value="采用公式（1）双向初始化得到麻雀种群X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="280" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-60" target="CUs4rStnzdPTpRsURDmQ-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-60" value="计算Xt的适应度和约束违规度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-60" value="计算X&lt;sup&gt;t&lt;/sup&gt;的适应度和约束违规度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="360" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-61" target="CUs4rStnzdPTpRsURDmQ-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-61" value="将X整体按照约束违规度排序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-61" value="将X&lt;sup&gt;t&lt;/sup&gt;整体按照约束违规度排序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="440" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-62" target="CUs4rStnzdPTpRsURDmQ-63" edge="1">
@@ -37,7 +37,7 @@
         <mxCell id="CUs4rStnzdPTpRsURDmQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-63" target="CUs4rStnzdPTpRsURDmQ-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-63" value="找到fg、fw、xb、xp和xw" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-63" value="找到f&lt;sub&gt;g&lt;/sub&gt;、f&lt;sub&gt;w&lt;/sub&gt;、x&lt;sub&gt;b&lt;/sub&gt;、x&lt;sub&gt;p&lt;/sub&gt;和x&lt;sub&gt;w&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="600" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-76" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -49,19 +49,19 @@
         <mxCell id="CUs4rStnzdPTpRsURDmQ-80" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-65" target="CUs4rStnzdPTpRsURDmQ-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-65" value="t&amp;lt;tmax?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-65" value="t&amp;lt;t&lt;sub&gt;max&lt;/sub&gt;?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="680" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-66" target="CUs4rStnzdPTpRsURDmQ-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-66" value="采用公式（6）~（9）进行更新" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-66" value="采用公式（5）~（8）进行更新" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="800" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-67" target="CUs4rStnzdPTpRsURDmQ-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CUs4rStnzdPTpRsURDmQ-67" value="公式（10）~（13）对Xt进行社区学习,得到Xt+1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CUs4rStnzdPTpRsURDmQ-67" value="公式（9）~（12）对X&lt;sup&gt;t&lt;/sup&gt;进行社区学习,得到X&lt;sup&gt;t+1&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="890" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CUs4rStnzdPTpRsURDmQ-68" target="CUs4rStnzdPTpRsURDmQ-60" edge="1">
@@ -77,6 +77,12 @@
         </mxCell>
         <mxCell id="CUs4rStnzdPTpRsURDmQ-69" value="结束" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="560" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVyFLXYwMtGK4eottfmX-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="630" as="sourcePoint" />
+            <mxPoint x="350" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
